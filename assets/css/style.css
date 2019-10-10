@@ -20,7 +20,7 @@ body {
     font-weight: 300;
 }
 /*==========================================
-PRE LOADER 
+PRE LOADER
 ==========================================*/
 .preloader {
     position: fixed;
@@ -87,6 +87,7 @@ a span {
 }
 p {
     margin: 0 0 15px;
+    text-align: justify;
 }
 .clear {
     clear: both;
@@ -218,8 +219,8 @@ p:last-child {
 Section
 */
 .sections {
-    padding-top:100px;
-    padding-bottom:100px;
+    padding-top:50px;
+    padding-bottom:50px;
     position: relative;
     overflow: hidden;
 }
@@ -724,7 +725,7 @@ input:-ms-input-placeholder {
     -webkit-transition:.5s;
     -o-transition:.5s;
     -ms-transition:.5s;
-} 
+}
 .features-content.active{
     background:#fbc73a;
     color:#000;
@@ -744,7 +745,7 @@ input:-ms-input-placeholder {
 
 .features-content h4{
     margin-bottom:0;
-} 
+}
 .features-content h4 span{
     font-size: 20px;
     font-weight: 300;
@@ -755,7 +756,7 @@ input:-ms-input-placeholder {
 }
 .features-content p{
     font-size:14px;
-    margin-left:28px;	
+    margin-left:28px;
 }
 
 /*Our Packages Area*/
@@ -889,9 +890,9 @@ input:-ms-input-placeholder {
 /*Our Project Area*/
 
 .main-project{
-    background:#f4f4f4;
+    /*background:#f4f4f4;*/
     overflow:hidden;
-    padding:40px;
+    padding: 0 0 0 0;
 }
 .main-project .project-item{
     float:left;
@@ -903,11 +904,14 @@ input:-ms-input-placeholder {
     overflow:hidden;
 }
 .main-project .project-item h5{
-    font-size:15px;
+    font-size:14px;
     font-weight:500;
     text-transform:uppercase;
     color:#6a6a6a;
-    text-align:center;
+    text-align:left;
+}
+.main-project .project-item h5 span{
+    padding-left: 10px;
 }
 
 /*Our Team Area*/
@@ -959,7 +963,6 @@ input:-ms-input-placeholder {
 
 .hire-content{
     background: url(../images/hire-us.png) no-repeat center top scroll;
-    background-size
     -moz-background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -1080,4 +1083,4 @@ input:-ms-input-placeholder {
     background: #de9800;
     color: #fff;
     transform:scale(1.1);
-}	
+}
